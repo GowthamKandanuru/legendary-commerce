@@ -13,6 +13,7 @@ public class FlipkartLogin {
 	public void init() {
 		System.setProperty("webdriver.gecko.driver","K:/EclipseProjects/Workplace/First/drivers/geckodriver.exe");
 		driver = new FirefoxDriver();
-		driver.get("https://www.flipkart.com/");
+		driver.get("https://www.google.com");
+		System.out.println("gowtham");
 	}
 }
